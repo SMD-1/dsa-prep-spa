@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  height: 500px;
+  width: 500px;
+}
+
+.nested-box {
+  height: 250px;
+  width: 500px;
+}
+
+.splitter {
+  width: 10px;
+  background: brown;
+  cursor: col-resize;
+  position: relative;
+  height: 500px;
+}
+.nested-splitter {
+  position: relative;
+}
+.nested-splitter {
+  height: 10px;
+  background: brown;
+  cursor: row-resize;
+  position: absolute;
+}
+.a {
+  background: skyblue;
+}
+/* .b {
+  background: orange;
+} */
+.c {
+  background: purple;
+  width: 100%;
+}
+.d {
+  background: violet;
+  width: 100%;
+}
