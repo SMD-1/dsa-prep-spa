@@ -3,7 +3,7 @@ const questions = [
     num: 1,
     title: "Write a program to reverse an array or string",
     desc: "Given an array (or string), the task is to reverse the array/string.",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1, 2, 3}",
@@ -16,7 +16,7 @@ const questions = [
     num: 2,
     title: "Find the maximum and minimum element in an array",
     desc: "Write a function to return minimum and maximum in an array. Your program should make the minimum number of comparisons",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1000, 11, 445, 1, 330, 3000}",
@@ -48,7 +48,7 @@ const questions = [
     num: 4,
     title: "Sort an array of 0s, 1s and 2s",
     desc: "Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order (without using algo).",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{0, 2, 1, 2, 0}}",
@@ -69,7 +69,7 @@ const questions = [
     title:
       "Move all negative numbers to beginning and positive to end with constant extra space",
     desc: "An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{-12, 11, -13, -5, 6, -7, 5, -3, -6}",
@@ -82,7 +82,7 @@ const questions = [
     num: 6,
     title: "Cyclically rotate an array by one",
     desc: "Given an array, rotate the array by one position in clock-wise direction.",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1, 2, 3, 4, 5}",
@@ -124,7 +124,7 @@ const questions = [
     num: 2,
     title: "Find the maximum and minimum element in an array",
     desc: "Write a function to return minimum and maximum in an array. Your program should make the minimum number of comparisons",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1000, 11, 445, 1, 330, 3000}",
@@ -137,7 +137,7 @@ const questions = [
     num: 2,
     title: "Find the maximum and minimum element in an array",
     desc: "Write a function to return minimum and maximum in an array. Your program should make the minimum number of comparisons",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1000, 11, 445, 1, 330, 3000}",
@@ -150,7 +150,7 @@ const questions = [
     num: 2,
     title: "Find the maximum and minimum element in an array",
     desc: "Write a function to return minimum and maximum in an array. Your program should make the minimum number of comparisons",
-    diffLevel: "ez",
+    diffLevel: "easy",
     testCases: [
       {
         input: "{1000, 11, 445, 1, 330, 3000}",
