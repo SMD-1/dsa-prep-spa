@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* --primary: #ff4c29; */
+  --primary: #10b981;
+}
+.left {
+  width: 95%;
+  height: calc(100vh - 65px);
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #fff; */
+}
+.question {
+  padding: 10px;
+  color: var(--primary);
+  border: 1px solid #fff;
+}
+.ques-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.difficulty {
+  border: 1px solid #fff;
+}
+.description {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
