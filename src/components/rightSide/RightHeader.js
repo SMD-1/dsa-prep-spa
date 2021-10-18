@@ -11,6 +11,8 @@ import js_icon from "../../assets/javascript.svg";
 import { makeStyles } from "@mui/styles";
 import Theme from "../Theme/Theme";
 
+import "./right.css";
+
 const useStyles = makeStyles({
   editor: {
     background: "#1976d2",
@@ -40,8 +42,11 @@ export default function SelectAutoWidth() {
         <Theme />
       </div>
       <div>
-        <FormControl sx={{ m: 1, minWidth: 80 }}>
-          <InputLabel id="demo-simple-select-autowidth-label">
+        <FormControl sx={{ m: 1, minWidth: 100 }}>
+          <InputLabel
+            id="demo-simple-select-autowidth-label"
+            style={{ color: "white" }}
+          >
             Language
           </InputLabel>
           <Select
@@ -50,6 +55,7 @@ export default function SelectAutoWidth() {
             autoWidth
             classeName={classes.select}
             label="language"
+            style={{ color: "white" }}
           >
             <MenuItem value={"c"}>
               <img className="lang-icon" src={c_icon} alt="lang" />
