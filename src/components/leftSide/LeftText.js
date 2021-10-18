@@ -10,12 +10,12 @@ import questions from "../../data/questions";
 import "./left.css";
 
 const LeftText = () => {
-  const question = questions[0].title;
-  const desc = questions[0].desc;
-  const difficulty = questions[0].diffLevel;
-  const testCase = questions[0].testCases[0];
-  const num = questions[0].num;
-  const { input, output } = testCase;
+  const question = questions[8].title;
+  const desc = questions[8].desc;
+  const difficulty = questions[8].diffLevel;
+  const testCase = questions[8].testCases[0];
+  const num = questions[8].num;
+  const { input, output, explaination } = testCase;
   console.log(num);
   console.log(testCase);
   console.log(input);
@@ -78,11 +78,12 @@ const LeftText = () => {
           Example {num}
         </Typography>
         <div className="input" style={{ marginTop: "1rem" }}>
-          Input : <br /> <span> {input}</span>
+          Input : <span> {input}</span>
         </div>
         <div className="output">
-          Output : <br /> <span> {output}</span>
+          Output : <span> {output}</span>
         </div>
+        <div className="explaination">Explaination: {explaination}</div>
       </Box>
       {/* <div className="examples" style={{ marginTop: "1rem" }}>
         <Typography variant="h5" style={{ fontWeight: "bold" }}>
