@@ -158,6 +158,42 @@ const questions = [
       },
     ],
   },
+  {
+    num: 9,
+    title: "Check if a number is Palindrome",
+    desc: 'Given an integer, write a function that returns true if the given number is palindrome, else false. For example, 12321 is palindrome, but 1451 is not palindrome. If number is palindrome print "Yes" otherwise "No".',
+    diffLevel: "Medium",
+    testCases: [
+      {
+        input: "11111",
+        output: "Yes",
+        hidden: false,
+      },
+      {
+        input: "1451",
+        output: "No",
+        hidden: false,
+      },
+    ],
+  },
+  {
+    num: 10,
+    title: "Write a Program to Swap two Numbers",
+    desc: "Given two numbers, write a C program to swap the given numbers.",
+    diffLevel: "easy",
+    testCases: [
+      {
+        input: "x = 10, y=15",
+        output: "x = 15, y = 10",
+        hidden: false,
+      },
+      {
+        input: "x = 10145, y=43533",
+        output: "x = 43533, y = 10145",
+        hidden: false,
+      },
+    ],
+  },
 ];
 
 module.exports = questions;
